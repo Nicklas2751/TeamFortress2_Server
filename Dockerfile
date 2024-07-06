@@ -19,7 +19,6 @@ RUN apt-get update                      &&      \
     apt-get upgrade -y                     &&      \
     apt-get install -y                          \
         curl                                    \
-        lib32gcc1				\
 	lib32tinfo5				\
 	libncurses5				\
 	libncurses5:i386			\
@@ -27,7 +26,6 @@ RUN apt-get update                      &&      \
 	libstdc++6:i386				\
 	lib32z1					\
 	libcurl3-gnutls:i386
-					
 
 RUN useradd                             \
         -d /home/steamsrv               \
