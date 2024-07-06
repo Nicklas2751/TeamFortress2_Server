@@ -19,9 +19,6 @@ RUN apt-get update                      &&      \
     apt-get upgrade -y                     &&      \
     apt-get install -y                          \
         curl                                    \
-	lib32tinfo5				\
-	libncurses5				\
-	libncurses5:i386			\
 	libc6:i386				\
 	libstdc++6:i386				\
 	lib32z1					\
